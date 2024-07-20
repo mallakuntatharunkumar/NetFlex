@@ -1,0 +1,285 @@
+
+body{
+    background-color: rgb(73, 72, 72);
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+
+}
+.Netflix-imag{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.Netflix-name-div{
+    margin:0 100px ;
+
+}
+.Netflix-name{
+    font-family: sans-serif;
+    position: absolute;
+    font-style: italic;
+    top: 0;
+    color: rgb(214, 26, 26);
+    font-weight: 1000;
+   font-size: 35px;
+
+}
+.span{
+   font-size: 50px;
+   color: aqua;
+
+}
+.Top-btns{
+    position: absolute;
+    top: 35px;
+    right: 140px;
+    display: flex;
+    /* justify-content: space-between; */
+   
+    
+    
+}
+
+.btn-eng{
+    margin-right: 30px;
+    background-color: red;
+    background-color: rgb(32, 27, 27);
+    text-decoration: none;
+    border: 1px solid rgb(225, 23, 23);
+    padding:7px 25px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+}
+.btn-sign{
+    background-color: red;
+    text-decoration: none;
+    padding:7px 25px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(7, 222, 222);
+}
+.netflix-center{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: antiquewhite;
+}
+.center-ele{
+    text-align: center;
+    font-weight: bold;
+}
+.ele1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.input{
+    text-align: center;  
+}
+.email-input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #353434; 
+    font-size: 16px; 
+    padding: 7px;
+    border: 2px solid rgb(163, 162, 162);
+    margin-right:10px ;
+    border-radius: 5px;
+}
+.email-input:hover{
+border: 2px solid rgb(185, 254, 153);
+}
+.border
+{
+    background-color: rgb(10, 9, 9);
+    padding: 0px;
+    color: white;
+    width: 100%;
+    height: 500px;
+   
+    
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+  }
+  .inner1-h1{
+  font-size: 50px;
+  font-weight: bolder;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  .inner1{
+    color: rgb(255, 255, 255);
+    
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .inner2{
+    box-shadow: 10px 10px 20px  rgba(110, 99, 99, 0.5);
+    border: 2px solid #333;
+  }
+.stage-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding: 100px;
+    
+}
+.image{
+    margin-right:70px ;
+    width: 270px;
+    height: 350px;
+    
+}
+.innerstage-2{
+    margin-left:100px ;
+    color: white;
+    width: 500px;
+    padding-left: 150px;
+
+}
+.innerstage-2-h1{
+    
+
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+  
+}
+h4{
+    margin-left: 15px;
+}
+.stage-2-parent{
+    background-color: black;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.img-stage {
+    position: relative;
+    width: 100%;  
+    max-width: 250px;  
+}
+.inner-img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.inner-image-stage {
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: 10px;  
+    padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.stage-3{
+    background-color: black;
+    
+   
+}
+.stage-3-sub{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.stage-3-content-h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.stage-3-content{
+    color: white;
+    margin: 100px 100px;
+}
+.stage3-img{
+margin-right: 100px;
+position: relative;
+}
+.stage-3-vedio{
+    position: absolute;
+    top: 0;
+    margin:52px 90px;
+    opacity: 0.3;
+}
+.stage-4{
+    background-color: black;
+    
+    
+}
+.stage-4-1-1{
+    padding: 100px;
+}
+.stage-4-1{
+    display: flex;
+    margin-top: 3px;
+    padding: 50px;
+    color: white;
+}
+.stage-4-h1{
+font-size: 50px;
+font-weight: bolder;
+margin-bottom: -5px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stage-5{
+    background-color: black;
+    margin-top: 3px;
+}
+.stage-5-content{
+    
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer{
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    padding: 50px 120px;
+    justify-content: space-around;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.stage-5-content2{
+    text-align: center;
+    
+}
+.getStarted{
+    background-color: red;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
